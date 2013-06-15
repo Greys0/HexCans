@@ -1,0 +1,71 @@
+KSP - PartTools - Squad.mx 2013
+
+
+--- Overview ---
+
+To use it you would create a PartTools gameobject in a scene, add/setup your model as a child of the PartTools object, then click Write. It automatically writes the hierarchy and any textures into the given directory ready to be playtested.
+
+You can write each PartTools object individually or use the bulk exporter. This works on the entire project currently. Every PartTools prefab in the project will get written to its respective directory. Will possibly expand these features a little in the future.
+
+Currently the only supported filename for .mu files is "model.mu". Just place it in the directory with the part.cfg and it will be looked for as priority over any other models.
+
+
+--- How-to ---
+
+1. Create a new GameObject in a scene and add the KSP/PartTools component to it. This GameObject becomes the 'model' parent when it is loaded into the game, its name is irrelevant.
+
+2. Drag and drop your model into the scene and parent it to the PartTools GameObject.
+
+3. Assign KSP materials to your model. This version of PartTools only supports the included shaders.
+
+4. Set up PartTools making sure that the directory is set correctly.
+
+5. If your materials use formats other than JPEG or PNG then you must convert the textures.
+
+6. Press Write!
+
+
+--- Meshes ---
+
+Standard meshes and skinned meshes are supported along with tangents and vertex colours. You may also use meshcollider components tho must usually ensure isConvex is ticked. Submeshes are supported.
+
+
+--- Materials and shaders ---
+
+You may only use shaders from the list provided with PartTools. Shared material references are preserved. Multiple materials on a renderer are also supported.
+
+
+--- Textures ---
+
+Currently there are three types of texture format supported by KSP; JPEG, PNG and MBM. You may not use cube maps. I do want to ditch MBM in favour of something user-editable but we're stuck with it for a few weeks. At least you wont have to convert everything manually.
+
+If you tick "Convert Textures" then all textures are converted to MBM format. It is often a safer route to leave convert ticked.
+
+
+--- Animations ---
+
+Animation components can be written along with the hierarchy so you can force an animation to play forever or use them from script (part.FindModelAnimator is useful). Transform/bone animations are supported along with Light and Material animations.
+
+
+--- Supported components ---
+
+MeshFilter, MeshRenderer, SkinnedMeshRenderer,
+MeshCollider, SphereCollider, CapsuleCollider, BoxCollider, WheelCollider,
+Animation (Lights, Materials & Transforms),
+Light
+
+
+
+--- Supported shaders ---
+
+KSP/Diffuse
+KSP/Specular
+KSP/Bumped
+KSP/Bumped Specular
+KSP/Unlit
+KSP/Emissive/Diffuse
+KSP/Emissive/Specular
+KSP/Emissive/Bumped Specular
+KSP/Alpha/Cutoff
+KSP/Alpha/Cutoff Bumped
+KSP/Alpha/Unlit Transparent
