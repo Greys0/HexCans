@@ -41,7 +41,7 @@ Release History
 					Removed 2/3rds of .mu and texture files
 					added can rack and decoupler, as well as rescale of stock fuel... tube... thing
 
-6/9			0.2.1	
+6/9		0.2.1	
 					Increased space and contents of Liquid Barite canisters
 					fixed LB descriptions
 					fixed LB nodes
@@ -49,6 +49,7 @@ Release History
 					Corrected Xenon cfgs
 					Changed file name of ASAS hexcan to indicate can size
 					Altered resource contents based on new measurements
+
 6/11		0.2.2
 					Corrected Barite Normal tank
 					Reduced weight of probes
@@ -56,9 +57,7 @@ Release History
 					Removed all drymass declarations 
 					Verified all parts have mass declarations
 					Verified that all parts weigh an appropriate amount
-					
-					
-					
-					
-					
-					
+
+6/16		0.3.0			
+					Converted all finished parts to use MODEL{} and load from unified models
+					Advanced HexPod from raw STL to pre-textured Unfinished Part state
