@@ -61,3 +61,5 @@ Release History
 6/16		0.3.0			
 					Converted all finished parts to use MODEL{} and load from unified models
 					Advanced HexPod from raw STL to pre-textured Unfinished Part state
+
+6/18		0.3.1			Created Kethane hexcan assets and initial configurations
