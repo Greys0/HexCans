@@ -63,3 +63,4 @@ Release History
 					Advanced HexPod from raw STL to pre-textured Unfinished Part state
 
 6/18		0.3.1			Created Kethane hexcan assets and initial configurations
+7/12		0.3.1b			Fixed minor texture glitch and miscfg of Large Decoupler Rack
