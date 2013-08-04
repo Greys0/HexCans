@@ -72,3 +72,6 @@ Release History
 					fixed many bugs
 					Changed distributed structure to include /GameData/ folder for clarity of installation.
 					Final update of HexCans for KSP 0.20.x, may not be compatable with 0.20.0
+
+8/4		0.4.0			First update for 0.21.0 (0.21.1)
+					Converted SAS to reactionwheels
