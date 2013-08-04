@@ -4,7 +4,7 @@ Contained in this archieve are the as-of-yet created assets of the Hexagonal Can
 	LICENSE.txt	-	CC-BY 3.0 License
 	Readme.txt	-	This file
 
-/HexCans	-	Copy this folder into /GameData/
+/GameData/	-	Install this folder
 
 /Model Basefiles- 	Original and raw files from various points in the development
 	/CATIA	-	The original models as created in CATIA, should also load in Solidworks
@@ -22,6 +22,10 @@ resource containers able to fit diverse needs while still looking kinda nice. It
 CC-BY 3.0 license with the express intent that any person may take the models and apply customized
 textures and cfgs to create a variant that fits their need, as well as being free to distribute the result.
 We desire that any derivative works be released under the same license, but it is not mandatory.
+
+
+Rules of Attribution: The creator of this part set, Greys, must remain present in the Author field in .cfg files of all derivitive works which use assets from this pack.
+Other names in the field and the order they appear are up to the author of such derivitive works.
 
 --------------------------------------------------
 Release History
@@ -64,3 +68,7 @@ Release History
 
 6/18		0.3.1			Created Kethane hexcan assets and initial configurations
 7/12		0.3.1b			Fixed minor texture glitch and miscfg of Large Decoupler Rack
+8/4		0.3.2			Added built in support for ModularFuelSystems
+					fixed many bugs
+					Changed distributed structure to include /GameData/ folder for clarity of installation.
+					Final update of HexCans for KSP 0.20.x, may not be compatable with 0.20.0
