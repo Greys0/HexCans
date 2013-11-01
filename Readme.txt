@@ -75,3 +75,6 @@ Release History
 
 8/4		0.4.0			First update for 0.21.0 (0.21.1)
 					Converted SAS to reactionwheels
+
+?/?		0.4.2			Introduced Hexpod manned command pod
+10/31		0.5.0			Introduced TurboHex atmospheric engine and HexRam+Shock Wedge air intakes
