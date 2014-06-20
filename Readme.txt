@@ -24,57 +24,22 @@ textures and cfgs to create a variant that fits their need, as well as being fre
 We desire that any derivative works be released under the same license, but it is not mandatory.
 
 
-Rules of Attribution: The creator of this part set, Greys, must remain present in the Author field in .cfg files of all derivitive works which use assets from this pack.
+Rules of Attribution:______________________
+The creator of this part set, Greys, must remain present in the Author field in .cfg files of all derivitive works which use assets from this pack.
 Other names in the field and the order they appear are up to the author of such derivitive works.
 
+Rules of Redistribution:___________________
+You are free to include as much of the base HexCans set alongside your add-on as you like with two conditions:
+
+1. Do not distribute the original part set without modification.
+If you'd like to make modified variants of the stock parts that is fine, either as part of a greater add-on or a derivative HexCans set, but do not distribute the original parts as is. This is to prevent unnecessary confusion from the users and prevent the circulation of outdated assets.
+
+2. Try to include only the assets that you need for your add-on
+Limiting the HexCan assets that are distributed alongside your add-on to those that are necessary has three main benefits: 
+It reduces your distribution size which means players have to download less
+It eliminates unused assets which KSP will still load, reducing player's memory load if they don't choose to install the main set (marginally)
+It helps to prevent conflicts with the main set if assets have changed between your version and mine.
+
+
 --------------------------------------------------
-Release History
-5/15/2013	0.0.1	Initial Public Build
-5/17	  	0.0.2	Finished most stock resources and textures
-5/22	  	0.1.0	
-					Updated to .20
-					tweaked textures
-					finished all stock resources
-
-5/24		0.1.1	
-					Changed collider
-					fixed categories
-					fixed resources
-
-5/26		0.2.0	
-					Removed 2/3rds of .mu and texture files
-					added can rack and decoupler, as well as rescale of stock fuel... tube... thing
-
-6/9		0.2.1	
-					Increased space and contents of Liquid Barite canisters
-					fixed LB descriptions
-					fixed LB nodes
-					Fixed all HexCan dryweights
-					Corrected Xenon cfgs
-					Changed file name of ASAS hexcan to indicate can size
-					Altered resource contents based on new measurements
-
-6/11		0.2.2
-					Corrected Barite Normal tank
-					Reduced weight of probes
-					Corrected Oxy small mass
-					Removed all drymass declarations 
-					Verified all parts have mass declarations
-					Verified that all parts weigh an appropriate amount
-
-6/16		0.3.0			
-					Converted all finished parts to use MODEL{} and load from unified models
-					Advanced HexPod from raw STL to pre-textured Unfinished Part state
-
-6/18		0.3.1			Created Kethane hexcan assets and initial configurations
-7/12		0.3.1b			Fixed minor texture glitch and miscfg of Large Decoupler Rack
-8/4		0.3.2			Added built in support for ModularFuelSystems
-					fixed many bugs
-					Changed distributed structure to include /GameData/ folder for clarity of installation.
-					Final update of HexCans for KSP 0.20.x, may not be compatable with 0.20.0
-
-8/4		0.4.0			First update for 0.21.0 (0.21.1)
-					Converted SAS to reactionwheels
-
-?/?		0.4.2			Introduced Hexpod manned command pod
-10/31		0.5.0			Introduced TurboHex atmospheric engine and HexRam+Shock Wedge air intakes
+Release History has been removed from this document, see commit log and release listing at https://github.com/Greys0/HexCans
