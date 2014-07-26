@@ -1,5 +1,0 @@
-This Unity project and scene contain the basic form parts of HexCans ready to be reprocessed into .mu files If you wish to make a custom HexCan style part that does not use the original model set you can either duplicate a similar part and replace it's assets, or duplicate xBasePartTools and fill it in yourself.
-
-It's important to note that due to my own inexperience and some complexities of my workflow, most of the models I use are not properly centered and you can see in this Project that I have corrected them here, because this is the step where it's easiest to do so.
-
-Another important thing to note is that radial decouplers will always apply the ejection force along the X axis in a positive direction, so they must face in the same direction as the red arrow when you select the topmost parent in the Hierarchy, or they will eject at strange angles. I mean, unless you want that...
